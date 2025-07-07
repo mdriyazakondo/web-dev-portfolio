@@ -128,3 +128,88 @@ nav li a {
   text-align: center;
   margin: 0 22px;
 }
+
+.skills-section {
+  display: flex;
+  gap: 24px;
+  margin-top: 30px;
+}
+.skill {
+  width: 267px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid rgb(240, 236, 236);
+  padding: 30px;
+}
+.skill h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: bold;
+}
+.skill p {
+  color: #757575;
+  font-size: 16px;
+}
+
+.experience-summary {
+  margin: 120px 0px;
+}
+.education-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.education h3 {
+  color: #474747;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.education p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 600;
+}
+.education-description {
+  margin-top: 30px;
+}
+
+.education-section {
+  display: flex;
+  gap: 30px;
+}
+.download-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.footer {
+  display: flex;
+  gap: 120px;
+  width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0px;
+}
+
+.footer-content {
+  width: 500px;
+}
+.input {
+  width: 461px;
+  outline: none;
+  border: none;
+  padding: 16px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: #474747;
+}
+textarea {
+  resize: none;
+  height: 180px;
+}
+.btn {
+  margin: 10px;
+}
