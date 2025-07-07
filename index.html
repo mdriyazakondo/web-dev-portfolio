@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Developer Portfolio</title>
+    <!-- font awesome  cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- google font  -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,8 +45,16 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="btn-primary">Download CV</button>
-          <button class="btn-primary">Contact Me</button>
+
+          <div class="btn-cv">
+            <button class="btn-primary btn-download">
+              <i class="fa-solid fa-arrow-down"></i><span>Download CV</span>
+            </button>
+
+            <button class="btn-primary btn-download">
+              <i class="fa-solid fa-phone"></i><span>Contact Me</span>
+            </button>
+          </div>
         </div>
         <img class="banner-profile-image" src="./image/hardy.png " alt="" />
       </div>
@@ -207,7 +223,9 @@
           </div>
         </div>
         <div class="download-cv">
-          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary">
+            <i class="fa-solid fa-arrow-down"></i>Download CV
+          </button>
         </div>
       </section>
     </main>
