@@ -13,6 +13,10 @@
 .dark-2 {
   color: #474747;
 }
+
+.secondry-bg {
+  background-color: #fff8f3;
+}
 .btn-primary {
   background-color: #fd6e0a;
   color: white;
@@ -24,6 +28,19 @@
   cursor: pointer;
 }
 
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.section-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
 .header-image {
   background-image: url("../image/developer.png"), url("../image/header_bg.png");
   background-position: top left, bottom right;
@@ -77,4 +94,37 @@ nav li a {
 
 .banner-content {
   max-width: 580px;
+}
+.banner-description {
+  color: #757575;
+  margin: 24px 0px;
+}
+
+.about {
+  max-width: 1140px;
+  margin: 130px auto;
+
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  width: 800px;
+  margin: 130px 150px;
+  border: 2px solid #000000;
+  padding: 10px;
+  border-radius: 5px;
+}
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 22px;
 }
