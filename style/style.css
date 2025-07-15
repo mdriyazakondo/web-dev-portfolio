@@ -190,23 +190,29 @@ nav li a {
 .footer {
   display: flex;
   gap: 120px;
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 130px 0px;
 }
 
 .footer-content {
-  width: 500px;
+  width: 50%;
 }
 .input {
-  width: 461px;
+  width: 100%;
   outline: none;
   border: none;
   padding: 16px 20px;
   margin: 10px;
   font-size: 16px;
   color: #474747;
+  border-radius: 8px;
+  transition: all 0.5s ease;
 }
+.input:focus {
+  border: 2px solid green;
+}
+
 textarea {
   resize: none;
   height: 180px;
@@ -230,4 +236,37 @@ textarea {
 }
 .download-cv button i {
   margin-right: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .skills-section,
+  .education-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer {
+    padding: 0px 20px 20px 0px;
+    flex-direction: column;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .input {
+    width: calc(100% - 40px);
+  }
+  .address {
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+  }
+  .about-section {
+    margin: 20px;
+  }
+  .banner {
+    flex-direction: column;
+  }
 }
